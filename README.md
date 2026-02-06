@@ -38,6 +38,7 @@ JSON Server
 Cors
 
 <h2>📂 Estrutura do Projeto</h2>
+
 ORQUESTRADOR-EMAILS
 │
 ├── automacoes/
@@ -49,7 +50,7 @@ ORQUESTRADOR-EMAILS
 │   └── conexao.js
 │
 ├── logs/
-│   └── app.log (gerado automaticamente)
+│   └── app.log   (gerado automaticamente)
 │
 ├── monitores/
 │   └── monitorContas.js
@@ -67,6 +68,7 @@ ORQUESTRADOR-EMAILS
 ├── package-lock.json
 ├── README.md
 └── servidor.js
+
 
 <h2>🗄 Banco de Dados (SQLite)</h2>
 
@@ -216,3 +218,4 @@ Testes automatizados (Jest)
 Dashboard de visualização
 
 🤝 Contribuição
+
