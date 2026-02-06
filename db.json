@@ -1,0 +1,6 @@
+{
+  "contas_externas": [
+    { "id": 1, "dominio": "empresaA.com", "dns_ok": true, "reputation": 85, "sending_limit": 5000 },
+    { "id": 2, "dominio": "testeB.com", "dns_ok": false, "reputation": 40, "sending_limit": 100 }
+  ]
+}
