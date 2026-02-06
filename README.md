@@ -39,57 +39,37 @@ Cors
 
 <h2>📂 Estrutura do Projeto</h2>
 
-<ul>
-  <li>ORQUESTRADOR-EMAILS/
-    <ul>
-      <li>automacoes/
-        <ul>
-          <li>alertas.js</li>
-          <li>pausaSeguranca.js</li>
-          <li>validarDominio.js</li>
-        </ul>
-      </li>
-
-      <li>banco/
-        <ul>
-          <li>conexao.js</li>
-        </ul>
-      </li>
-
-      <li>logs/
-        <ul>
-          <li>app.log</li>
-        </ul>
-      </li>
-
-      <li>monitores/
-        <ul>
-          <li>monitorContas.js</li>
-        </ul>
-      </li>
-
-      <li>rotas/
-        <ul>
-          <li>contas.js</li>
-        </ul>
-      </li>
-
-      <li>scheduler/
-        <ul>
-          <li>cron.js</li>
-        </ul>
-      </li>
-
-      <li>.env</li>
-      <li>.gitignore</li>
-      <li>db.json</li>
-      <li>package.json</li>
-      <li>package-lock.json</li>
-      <li>README.md</li>
-      <li>servidor.js</li>
-    </ul>
-  </li>
-</ul>
+<pre>
+ORQUESTRADOR-EMAILS/
+|
+|-- automacoes/
+|     |-- alertas.js
+|     |-- pausaSeguranca.js
+|     |-- validarDominio.js
+|
+|-- banco/
+|     |-- conexao.js
+|
+|-- logs/
+|     |-- app.log
+|
+|-- monitores/
+|     |-- monitorContas.js
+|
+|-- rotas/
+|     |-- contas.js
+|
+|-- scheduler/
+|     |-- cron.js
+|
+|-- .env
+|-- .gitignore
+|-- db.json
+|-- package.json
+|-- package-lock.json
+|-- README.md
+|-- servidor.js
+</pre>
 
 
 <h2>🗄 Banco de Dados (SQLite)</h2>
@@ -240,6 +220,7 @@ Testes automatizados (Jest)
 Dashboard de visualização
 
 🤝 Contribuição
+
 
 
 
