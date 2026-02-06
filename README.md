@@ -40,34 +40,34 @@ Cors
 <h2>📂 Estrutura do Projeto</h2>
 
 ORQUESTRADOR-EMAILS
-│
-├── automacoes/
-│   ├── alertas.js
-│   ├── pausaSeguranca.js
-│   └── validarDominio.js
-│
-├── banco/
-│   └── conexao.js
-│
-├── logs/
-│   └── app.log   (gerado automaticamente)
-│
-├── monitores/
-│   └── monitorContas.js
-│
-├── rotas/
-│   └── contas.js
-│
-├── scheduler/
-│   └── cron.js
-│
-├── .env
-├── .gitignore
-├── db.json
-├── package.json
-├── package-lock.json
-├── README.md
-└── servidor.js
+|
++-- automacoes
+|   +-- alertas.js
+|   +-- pausaSeguranca.js
+|   +-- validarDominio.js
+|
++-- banco
+|   +-- conexao.js
+|
++-- logs
+|   +-- app.log
+|
++-- monitores
+|   +-- monitorContas.js
+|
++-- rotas
+|   +-- contas.js
+|
++-- scheduler
+|   +-- cron.js
+|
++-- .env
++-- .gitignore
++-- db.json
++-- package.json
++-- package-lock.json
++-- README.md
++-- servidor.js
 
 
 <h2>🗄 Banco de Dados (SQLite)</h2>
@@ -218,4 +218,5 @@ Testes automatizados (Jest)
 Dashboard de visualização
 
 🤝 Contribuição
+
 
