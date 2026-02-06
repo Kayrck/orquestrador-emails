@@ -8,6 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 // Rotas
+app.use(express.static('public'));
 app.use('/api/contas', rotasContas);
 
 // Iniciar Scheduler

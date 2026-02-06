@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAO | Orquestrador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <span class="dot"></span> EAO <strong>Dashboard</strong>
+            </div>
+            <div class="status-indicator">Sistema Online</div>
+        </header>
+
+        <main>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Total Contas</h3>
+                    <p id="total-contas">0</p>
+                </div>
+                <div class="card">
+                    <h3>Reputação Média</h3>
+                    <p id="media-reputacao">0</p>
+                </div>
+                <div class="card">
+                    <h3>Em Alerta</h3>
+                    <p id="total-alerta" class="danger">0</p>
+                </div>
+            </div>
+
+            <section class="table-container">
+                <div class="table-header">
+                    <h2>Monitoramento em Tempo Real</h2>
+                    <button onclick="carregarDados()" class="btn-refresh">Atualizar ↻</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Domínio</th>
+                            <th>Status</th>
+                            <th>Reputação</th>
+                            <th>Última Atualização</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-corpo">
+                        </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+
+    <div id="toast" class="toast">Ação realizada com sucesso!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
